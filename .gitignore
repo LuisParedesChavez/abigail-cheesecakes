@@ -1,0 +1,42 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build outputs
+.next/
+out/
+dist/
+build/
+
+# Environment files — NEVER commit these
+.env
+.env.local
+.env.*.local
+
+# Editor / OS junk
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+
+# Turborepo cache
+.turbo/
+
+# TypeScript build info
+*.tsbuildinfo
+next-env.d.ts
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Vercel
+.vercel
