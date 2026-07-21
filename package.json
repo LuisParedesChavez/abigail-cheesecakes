@@ -8,7 +8,12 @@
     "node": ">=20"
   },
   "scripts": {
-    "dev": "echo \"dev script will be wired up once Turborepo is added\" && exit 0",
-    "build": "echo \"build script will be wired up once Turborepo is added\" && exit 0"
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "typecheck": "turbo run typecheck"
+  },
+  "devDependencies": {
+    "turbo": "^2.10.5"
   }
 }
